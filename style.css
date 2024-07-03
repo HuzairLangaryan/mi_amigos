@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 2em;
+    column-gap: 2em;
+    background-color: rgb(43, 41, 41);
+    flex-wrap: wrap;
+}
+
+
+img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    border: 5px black solid;
+
+}
+
+
+img:hover{
+    border:  10px green solid;
+
+}
+
+img:active{
+    border: 10px red solid;
+}
